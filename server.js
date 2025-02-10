@@ -1,5 +1,4 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const config = require('./config/config');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/authRoutes');
@@ -20,7 +19,7 @@ connectDB(config.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true})
         })
     })
     .catch((err) => {
-        console.error('Error connecting to MongoDB');
+        console.log( `Error connecting to MongoDB ${err}`);
         process.exit(1);
     })
 ;
