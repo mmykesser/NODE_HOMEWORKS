@@ -1,0 +1,48 @@
+# Node.js specific files and directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lerna-debug.log*
+
+# Environment variables file
+.env
+
+# Logs
+logs
+*.log
+
+# Test files
+coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Package lock files (optional, depending on your preference)
+# If you want to keep package-lock.json, remove the next line
+package-lock.json
+
+# Example files (if any)
+*.example
+
+
+
